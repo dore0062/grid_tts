@@ -3,6 +3,7 @@
 # Usage:
 
 ## Atom:
+First save to your atom's code folder as <code>grid_tts.ttslua</code> (*NOT* .lua)
 #include grid_tts
 
 ## Creating a new grid:
