@@ -83,16 +83,6 @@ function Grid:spawn(grid_width, grid_height, y_offset, x_offset, z_offset, cell_
   return setmetatable(grid, Grid)
 end
 
-function spawnat()
-  local area = grid_zones[2][5]
-  local pos = area.getPosition()
-  local spawn_params = {
-    type = "rpg_BEAR",
-    position = pos,
-  }
-
-end
-
 ------------------------------------------------------------------------------------------------------------------
 -- Utilities
 ------------------------------------------------------------------------------------------------------------------
