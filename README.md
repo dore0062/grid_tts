@@ -11,7 +11,7 @@ First initialize your grid with
   
 You can now use Myvalue to preform grid functionality. The first command you should preform is
 
-<code>myvalue:spawn(grid_width, grid_height, y_offset, x_offset, z_offset, cell_width, cell_height, cell_padding, spawn_location)</code>
+<code>Myvalue:spawn(grid_width, grid_height, y_offset, x_offset, z_offset, cell_width, cell_height, cell_padding, spawn_location)</code>
 
 This will spawn scripting zones and place the scripting zone objects into the table. Your grid is now ready for use! To save the grid, just save the variable like you normally would in TTS.
 
