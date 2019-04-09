@@ -2,16 +2,16 @@
 
 # Usage:
 
-## ATOM:
+## Atom:
 #include grid_tts
 
 ## Creating a new grid:
 First initialize your grid with
-  Myvalue = Grid:new()
+<code>Myvalue = Grid:new()</code>
   
 You can now use Myvalue to preform grid functionality. The first command you should preform is
 
-myvalue:spawn(grid_width, grid_height, y_offset, x_offset, z_offset, cell_width, cell_height, cell_padding, spawn_location)
+<code>myvalue:spawn(grid_width, grid_height, y_offset, x_offset, z_offset, cell_width, cell_height, cell_padding, spawn_location)</code>
 
 This will spawn scripting zones and place the scripting zone objects into the table. Your grid is now ready for use! To save the grid, just save the variable like you normally would in TTS.
 
@@ -48,3 +48,12 @@ Iterates through a circular area
 | startY   | Starting y      | number |
 | endX     | Ending x        | number |
 | endY     | Ending y        | number |
+
+## Other commands:
+* **Grid:iterate()** : Iterate through the entire grid.
+* **Grid:clean()** : Cleans any empty rows.
+* **Grid:get(x, y)** : Get the scripting zone of a cell
+
+# Example usage:
+Use interchangably with any iteration, it all works the same.
+<code>for x, y, v in special_grid:circle("fill", 2, 2, 1) do print("Circle: ", x, ",", y, " ", v) end</code>
