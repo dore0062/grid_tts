@@ -69,7 +69,10 @@ Iterates through a circular area
 
 ## Example usage:
 Use interchangably with any iteration, it all works the same.
-<code>for x, y, v in special_grid:circle("fill", 2, 2, 1) do print("Circle: ", x, ",", y, " ", v) end</code>
-
+```lua
+  special_grid = Grid:new()
+  special_grid:spawn(6, 3, 2.3, 0.1, 0.7, 2.6, 1.5, 0.5, spawn)
+  for x, y, v in special_grid:circle("fill", 2, 2, 1) do print("Circle: ", x, ",", y, " ", v) end
+```
 ## Custom grids:
 If you want to have custom scripting zones sizes, then you can include set them into the grid (the grid is initialized as a table)
