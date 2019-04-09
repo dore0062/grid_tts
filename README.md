@@ -16,7 +16,7 @@ TTS grid is used to make simple scripting zone grids for tabletop simulator, so 
 
 ### Atom:
 First save to your atom's code folder as <code>grid_tts.ttslua</code> (*NOT* .lua)
-#include grid_tts
+then put <code>#include grid_tts</code> at the top of your code.
 
 ### Creating a new grid:
 First initialize your grid with
