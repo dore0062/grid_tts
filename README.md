@@ -70,3 +70,6 @@ Iterates through a circular area
 ## Example usage:
 Use interchangably with any iteration, it all works the same.
 <code>for x, y, v in special_grid:circle("fill", 2, 2, 1) do print("Circle: ", x, ",", y, " ", v) end</code>
+
+## Custom grids:
+If you want to have custom scripting zones sizes, then you can include set them into the grid (the grid is initialized as a table)
