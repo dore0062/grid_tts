@@ -1,4 +1,6 @@
 # grid_tts
+TTS grid is used to make simple scripting zone grids for tabletop simulator, so you can more easily create advanced games they use grids.
+
 - [grid_tts](#grid-tts)
   * [Usage:](#usage-)
     + [Atom:](#atom-)
