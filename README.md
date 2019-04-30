@@ -51,7 +51,7 @@ Iterates through a circular area
 | width    | Width of rectangle  | number |
 | height   | Height of rectangle | number |
 
-### function Grid:line(mode, startX, startY, endX, endY)
+### Grid:line(mode, startX, startY, endX, endY)
 -- Iterates through a line
 
 | Variable | Usage           | Type   |
